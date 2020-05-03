@@ -5,3 +5,24 @@
     text-align: center;
     font-size:40px;
 }
+
+#tweet{
+    border-radius: 15px;
+    font-size: 30px;
+    border:#00ACEE 2px solid;
+    background-color: white;
+    color:#00ACEE;
+    transition: 0.4s;
+}
+
+#tweet:hover{
+    border:#00ACEE 2px solid;
+    background-color: #00ACEE;
+    color:white;
+    transition: 0.3s;
+}
+
+#tweet:active{
+    transform: rotate(10deg);
+    transition: 0.1s;
+}
