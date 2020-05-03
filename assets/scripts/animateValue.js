@@ -5,6 +5,11 @@ function animateValue(id, range, duration) {
   var increment = range > 0 ? 1 : -1
   var stepTime = Math.abs(Math.floor(duration / range))
   var obj = document.getElementById(id)
+  if (range > 0) {
+    obj.style.color = "green"
+  } else {
+    obj.style.color = "red"
+  }
   var timer = setInterval(function () {
     current += increment
     obj.innerHTML = current + "$"
