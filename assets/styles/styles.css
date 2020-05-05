@@ -1,35 +1,36 @@
-.contact{
-    font-size:20px;
+.contact {
+  font-size: 20px;
 }
 
-#cost{
-    text-align: center;
-    font-size:40px;
-    padding: 10px;
-}
-#shares{
-    text-align: center;
-    font-size:40px;
-    margin: 10px 0;
+#cost {
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
 }
 
-#tweet{
-    border-radius: 15px;
-    font-size: 30px;
-    border:#00ACEE 2px solid;
-    background-color: white;
-    color:#00ACEE;
-    transition: 0.4s;
+#shares {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px 0;
 }
 
-#tweet:hover{
-    border:#00ACEE 2px solid;
-    background-color: #00ACEE;
-    color:white;
-    transition: 0.3s;
+#tweet {
+  border-radius: 15px;
+  font-size: 30px;
+  border: #00acee 2px solid;
+  background-color: white;
+  color: #00acee;
+  transition: 0.4s;
 }
 
-#tweet:active{
-    transform: rotate(10deg);
-    transition: 0.1s;
+#tweet:hover {
+  border: #00acee 2px solid;
+  background-color: #00acee;
+  color: white;
+  transition: 0.3s;
+}
+
+#tweet:active {
+  transform: rotate(10deg);
+  transition: 0.1s;
 }
